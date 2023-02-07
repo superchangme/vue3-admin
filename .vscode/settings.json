@@ -1,0 +1,33 @@
+{
+  "editor.tabSize": 2,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
+  },
+
+  // "css.lint.unknownAtRules": "ignore",
+  // "scss.lint.unknownAtRules": "ignore",
+  // "less.lint.unknownAtRules": "ignore",
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+
+  // stylelint 需要检查的文件
+  "stylelint.validate": ["css", "less", "postcss", "scss", "vue", "sass"],
+  "editor.formatOnSave": false,
+  "cSpell.words": [
+    "Commitlint",
+    "iconify",
+    "nprogress",
+    "pnpm",
+    "Stylelint",
+    "tailwindcss",
+    "unplugin",
+    "Vite"
+  ],
+  "typescript.tsdk": "node_modules/typescript/lib"
+  // "prettier.enable": false
+}
